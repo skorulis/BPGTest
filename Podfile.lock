@@ -1,0 +1,41 @@
+PODS:
+  - HCImage+BPG (1.0):
+    - HCImage+BPG/libbpg (= 1.0)
+  - HCImage+BPG/libbpg (1.0)
+  - iOS-WebP (0.4):
+    - libwebp (~> 0.4.2)
+  - libwebp (0.4.2):
+    - libwebp/core (= 0.4.2)
+    - libwebp/dec (= 0.4.2)
+    - libwebp/demux (= 0.4.2)
+    - libwebp/dsp (= 0.4.2)
+    - libwebp/enc (= 0.4.2)
+    - libwebp/mux (= 0.4.2)
+    - libwebp/utils (= 0.4.2)
+    - libwebp/webp (= 0.4.2)
+  - libwebp/core (0.4.2):
+    - libwebp/webp
+  - libwebp/dec (0.4.2):
+    - libwebp/core
+  - libwebp/demux (0.4.2):
+    - libwebp/core
+  - libwebp/dsp (0.4.2):
+    - libwebp/core
+  - libwebp/enc (0.4.2):
+    - libwebp/core
+  - libwebp/mux (0.4.2):
+    - libwebp/core
+  - libwebp/utils (0.4.2):
+    - libwebp/core
+  - libwebp/webp (0.4.2)
+
+DEPENDENCIES:
+  - HCImage+BPG
+  - iOS-WebP
+
+SPEC CHECKSUMS:
+  HCImage+BPG: 5beb79589802ab143ba9ecc381a1017133853cfd
+  iOS-WebP: 374cde38d72256ce504902953ad604791194600f
+  libwebp: c471fec5a68b9ab8e0c1cbde275fa20eddaa02fa
+
+COCOAPODS: 0.35.0
